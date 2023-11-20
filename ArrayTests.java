@@ -33,7 +33,7 @@ public class ArrayTests {
 @Test
   public void testReverseInPlace1() {
     int[] input1 = {4,7,12,22};
-    ArrayExamples.reverseInPlace1(input1);
+     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[] {22,12,7,4}, input1);
   }
 	
