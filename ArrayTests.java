@@ -29,12 +29,13 @@ public class ArrayTests {
     int[] input1 = {1,4,6,8};
     assertArrayEquals(new int[]{8,6,4,1}, ArrayExamples.reversed(input1));
   }
-	
+
 @Test
-  public void testReverseInPlace2() {
-    int[] input2 = { 3, 6, 5, 2 };
-    ArrayExamples.reverseInPlace(input2);
-    assertArrayEquals(new int[] { 2, 5, 6, 3 }, input2);
+  public void testReverseInPlace1() {
+    int[] input1 = {4,7,12,22};
+    ArrayExamples.reverseInPlace1(input1);
+    assertArrayEquals(new int[] {22,12,7,4}, input1);
+  }
   }
 	
 }
