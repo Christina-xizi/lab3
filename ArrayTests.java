@@ -30,4 +30,10 @@ public class ArrayTests {
     assertArrayEquals(new int[]{8,6,4,1}, ArrayExamples.reversed(input1));
   }
 
+@Test
+  public void testReverseInPlace() {
+    int[] input = { 4, 7, 12, 22 };
+    ArrayExamples.reverseInPlace(input);
+    assertArrayEquals(new int[] { 22, 12, 7, 4 }, input);
+  }
 }
