@@ -36,6 +36,5 @@ public class ArrayTests {
     ArrayExamples.reverseInPlace1(input1);
     assertArrayEquals(new int[] {22,12,7,4}, input1);
   }
-  }
-	
+  
 }
